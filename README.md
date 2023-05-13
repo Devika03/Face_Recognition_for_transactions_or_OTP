@@ -192,8 +192,6 @@ Mohsin Karovaliya in paper [2] proposes Eigenface based method for the face reco
 
 The paper [3] suggests a vibration sensor which senses vibrations produced from ATM machine whenever robbery occurs. This system uses ARM controller based embedded system to process real time data collected using the vibration sensor. Once the vibration is sensed the beep sound will occur from the buzzer.
 
-3
-ATM Security system based on Face Recognition, PIN and OTP![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.001.png)
 
 DC Motor is used for closing the door of ATM. Some other additional security measures are used. This will prevent the robbery and the person involving in robbery can be easily caught. Software implementation is deployed using two software packages, first one is the Keil Vision 3.0. Second one is the Flash magic simulator. Keil Vision Debugger accurately simulates on-chip peripherals. This system helps in rapid reaction and minimization of loss by detecting the ATM machine at real-time when it has been stolen can be found through GSM technol- ogy.
 
@@ -229,7 +227,6 @@ Govt.Model Engineering College 6
 
 1. **Block Diagram**
 
-![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.003.png)
 
 **Figure 3.1:** Block Diagram[1]
 
@@ -259,7 +256,6 @@ The algorithm needs a lot of positive images (images of faces) and negative im- 
 
 Each feature is a single value obtained by subtracting the sum of the pixels under the white rectangle from the sum of the pixels under the black rectangle. Now, all possible sizes and locations of each kernel are used to calculate plenty of features. Each feature calculation, requires to find the sum of the pixels under the white and black rectangles. The concept of integral image is very useful to solve this. Integral images are those images in which the pixel value at any (x,y) location is the sum of the all pixel values present before the current pixel.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
 
-![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.006.png)
 
 **Figure 3.3:** Haar cascade[1]
 
@@ -297,7 +293,6 @@ same applies from the nose to the mouth. When multiple faces are given, compar- 
 
 This is how EigenFaces recognizer works. It looks at all the training images of all the people as a whole and tries to extract the components which are relevant and useful and discards the rest. These important features are called principal components.
 
-![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.007.png)
 
 **Figure 3.4:** EigenFaces Face Recognizer Principal Components.[9]
 
@@ -317,13 +312,11 @@ Precisely, FisherFaces face recognizer algorithm extracts principal components t
 
 Below is an image of principal components using FisherFaces algorithm.
 
-![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.008.png)
+
 
 **Figure 3.5:** FisherFaces Face Recognizer Principal Components.[9]
 
-One thing to note here is that FisherFaces only prevents features of one person from becoming dominant, but it still considers illumination changes as a useful feature. But light variation is not a useful feature to extract as it is not part of the![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
-
-actual face, another face recognizer Algorithm must be used.
+One thing to note here is that FisherFaces only prevents features of one person from becoming dominant, but it still considers illumination changes as a useful feature. But light variation is not a useful feature to extract as it is not part of the actual face, another face recognizer Algorithm must be used.
 
 2. **Method two based on deep learning**
 
@@ -335,7 +328,7 @@ Deep learning (also known as deep structured learning or hierarchical learning) 
 
 In the case of machine learning, the algorithm needs to be told how to make an accurate prediction by providing it with more information, whereas, in the case of deep learning, the algorithm is able to learn that through its own data processing. It is similar to how a human being would identify something, think about it, and then draw any kind of conclusion.Deep learning interprets data features and its relationships using neural networks which pass the relevant information through several stages of data processing.
 
-The key here is to get a deep Convolutional Neural Network(CNN) to produce a bunch of numbers that describe a face (known as face encodings). When two dif- ferent images of the same person are passed to the network, the network should return similar outputs (i.e. closer numbers) for both images, whereas when im- ages of two different people are passed, the network should return very differ- ent outputs for the two images. This means that the neural network needs to be![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png) trained to automatically identify different features of faces and calculate numbers based on that.
+The key here is to get a deep Convolutional Neural Network(CNN) to produce a bunch of numbers that describe a face (known as face encodings). When two dif- ferent images of the same person are passed to the network, the network should return similar outputs (i.e. closer numbers) for both images, whereas when im- ages of two different people are passed, the network should return very differ- ent outputs for the two images. This means that the neural network needs to be trained to automatically identify different features of faces and calculate numbers based on that.
 
 2. **PIN Matching**
 
@@ -343,17 +336,14 @@ A Personal Identification Number (PIN), is a numeric or alpha-numeric pass- word
 
 The PIN used is a 4-digit number. The details of user along with their PINs are already stored in the database. Once the user enters the PIN, it is checked with PIN in the database. If the PIN matches with the user face and details, then sys- tem proceeds to next step. The user has three chances of entering PIN. If PIN is not matched even the third time, then the account will be temporarily blocked to ensure safety to the real user indicating that the person who arrived at the ATM is probably a robber.
 
-![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.009.png)
 
 **Figure 3.6:** PIN
 
 3. **OTP Generation and Verification**
 
-A one-time password (OTP), also known as one-time pin, is a password that is valid for only one login session or transaction, on a computer system or other![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png) digital device. OTPs avoid a number of shortcomings that are associated with tra- ditional (static) password-based authentication.
+A one-time password (OTP), also known as one-time pin, is a password that is valid for only one login session or transaction, on a computer system or other digital device. OTPs avoid a number of shortcomings that are associated with tra- ditional (static) password-based authentication.
 
-For implementing OTP, Textlocal website is used to send SMS (an OTP) to user’s mobile number. The idea to use mobile phones is preferred over e-mail because the people in rural areas have simple phones which can receive text messages but have no internet connections and e-mail facilities. Since mobile phones are ubiquitous, mobile phones are used so that everyone can take the benefit of the proposed system. The user will receive OTP immediately after passing the face recognition test and entering the PIN. Once OTP is received user has to enter the code which is of 4-digit. User gets three chances to enter the OTP. If the code is en- tered incorrectly in three consecutive attempts account gets temporarily blocked and notification is sent to registered mobile number. This feature is added in or- der to restrict the fraudulent means of attacking the account of a user by wearing masks or in rare cases, if unauthorized user’s face mistakenly matches authorized user’s face.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
-
-Govt.Model Engineering College 19
+For implementing OTP, Textlocal website is used to send SMS (an OTP) to user’s mobile number. The idea to use mobile phones is preferred over e-mail because the people in rural areas have simple phones which can receive text messages but have no internet connections and e-mail facilities. Since mobile phones are ubiquitous, mobile phones are used so that everyone can take the benefit of the proposed system. The user will receive OTP immediately after passing the face recognition test and entering the PIN. Once OTP is received user has to enter the code which is of 4-digit. User gets three chances to enter the OTP. If the code is en- tered incorrectly in three consecutive attempts account gets temporarily blocked and notification is sent to registered mobile number. This feature is added in or- der to restrict the fraudulent means of attacking the account of a user by wearing masks or in rare cases, if unauthorized user’s face mistakenly matches authorized user’s face.
 
 **Chapter 4**
 
@@ -371,20 +361,18 @@ The Raspberry Pi is a series of small single-board computers developed in the Un
 
 The specificationsinclude:
 
-Model used– Raspberry Pi 3 Model B CPU - Quad Core 1.2GHz Broadcom
+Model used– Raspberry Pi 3 Model B CPU - Quad Core 1.2GHz Broadcom
 
 20
 
 
-ATM Security system based on Face Recognition, PIN and OTP![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.001.png)
 
-BCM2837 64bit RAM - 1GB RAM BCM43438 wireless LAN and Bluetooth
+BCM2837 64bit RAM - 1GB RAM BCM43438 wireless LAN and Bluetooth
 
-Low Energy (BLE) on board 100 Base Ethernet 40-pin extended GPIO 4 USB 2 ports 4 Pole stereo output and composite video port Full size HDMI CSI camera port for connecting a Raspberry Pi camera DSI display port for connecting a Raspberry Pi touchscreen display Micro SD port for loading your operating system and storing data Upgraded switched Micro USB power
+Low Energy (BLE) on board 100 Base Ethernet 40-pin extended GPIO 4 USB 2 ports 4 Pole stereo output and composite video port Full size HDMI CSI camera port for connecting a Raspberry Pi camera DSI display port for connecting a Raspberry Pi touchscreen display Micro SD port for loading your operating system and storing data Upgraded switched Micro USB power
 
 source up to 2.5A.
 
-![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.010.png)
 
 **Figure 4.1:** Raspberry Pi
 
@@ -392,7 +380,7 @@ source up to 2.5A.
 
 The Raspberry Pi Camera Module is a custom designed add-on for Raspberry Pi. It attaches to Raspberry Pi by way of one of the two small sockets on the board upper surface. This interface uses the dedicated CSI interface, which was de- signed especially for interfacing to cameras. The CSI bus is capable of extremely high data rates, and it exclusively carries pixel data.
 
-The resolution of the Pi Camera used: 5 Mega Pixels.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+The resolution of the Pi Camera used: 5 Mega Pixels.
 
 ![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.011.png)
 
@@ -406,7 +394,7 @@ I. Method one based on machine learning.
 
 RaspbianisaDebian-basedcomputeroperatingsystemforRaspberryPi. There are several versions of Raspbian including Raspbian Stretch and Raspbian Jessie. Since 2015, it has been officially provided by the Raspberry Pi Foundation as the primary operating system for the family of Raspberry Pi single-board computers.
 
-The operating system is still under active development. Raspbian is highly op- timized for the Raspberry Pi line’s low-performance ARM CPUs.Raspbian uses PIXEL(Pi Improved X-Window Environment, Lightweight), as its main desktop environment as of the latest update. It is composed of a modified LXDE desktop environment and the Openbox stacking window manager with a new theme and few other changes. The distribution is shipped with a copy of computer algebra program Mathematica and a version of Minecraft called Minecraft Pi as well as a lightweight version of Chromium as of the latest version.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+The operating system is still under active development. Raspbian is highly op- timized for the Raspberry Pi line’s low-performance ARM CPUs.Raspbian uses PIXEL(Pi Improved X-Window Environment, Lightweight), as its main desktop environment as of the latest update. It is composed of a modified LXDE desktop environment and the Openbox stacking window manager with a new theme and few other changes. The distribution is shipped with a copy of computer algebra program Mathematica and a version of Minecraft called Minecraft Pi as well as a lightweight version of Chromium as of the latest version.
 
 Version of Raspbian used: Raspbian Stretch.
 
@@ -418,7 +406,7 @@ Open Source Computer Vision Library is released under a BSD license and hence it
 
 OneofOpenCV’sgoalistoprovideasimple-to-usecomputervisioninfrastruc- ture that helps people build fairly sophisticated vision applications quickly. The OpenCV library contains over 500 functions that span many areas in vision, in- cludingfactoryproductinspection,medicalimaging,security,userinterface,cam- era calibration, stereo vision, and robotics. Because computer vision and machin learning often go hand-in-hand, OpenCV also contains a full, general purpose Machine learning Library (MLL). This sublibrary is focused on statistical pattern recognition and clustering. The MLL is highly useful for the vision tasks that are at the core of OpenCV’s mission, but it is general enough to be used for any ma- chine learning problem.
 
-Version used: OpenCV 4.0.0![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+Version used: OpenCV 4.0.0
 
 3. **Python**
 
@@ -430,7 +418,7 @@ Version used: Python 3.7.2
 
 4. **Netbeans Java**
 
-Netbeans is an open source integrated development environment (IDE) for Java. Netbeans allows applications to be developed from a set of modular soft- ware components called modules. NetBeans runs on Windows, macOS, Linux andSolaris. InadditiontoJavadevelopment, ithasextensionsforotherlanguages like PHP, C, C++, HTML5, and JavaScript. Applications based on Netbeans, in- cluding the Netbeans IDE, can be extended by third party developers.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+Netbeans is an open source integrated development environment (IDE) for Java. Netbeans allows applications to be developed from a set of modular soft- ware components called modules. NetBeans runs on Windows, macOS, Linux andSolaris. InadditiontoJavadevelopment, ithasextensionsforotherlanguages like PHP, C, C++, HTML5, and JavaScript. Applications based on Netbeans, in- cluding the Netbeans IDE, can be extended by third party developers.
 
 The Netbeans platform offers reusable services common to desktop applica- tions, allowing developers to focus on the logic specificto their application. Some features of the platform are:User interface management (e.g. menus and tool- bars), User settings management, Storage management (carries out efficient stor- age), Window management, Wizard framework (supports step-by-step dialogs), Netbeans Visual Library Integrated development tools. Netbeans IDE modules include netbeans profiler, a GUI design tool and Netbeans Javascript editor.
 
@@ -440,7 +428,7 @@ Version used: 8.2
 
 5. **Xampp**
 
-Xampp is a free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages. It makes transitioning from a local test server to a live server possible.Using Xampp, we created account database of customer con- sisting of Customer name, username, PIN and mobile number using Xampp.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+Xampp is a free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages. It makes transitioning from a local test server to a live server possible.Using Xampp, we created account database of customer con- sisting of Customer name, username, PIN and mobile number using Xampp.
 
 ![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.012.png)
 
@@ -448,7 +436,7 @@ Xampp is a free and open-source cross-platform web server solution stack package
 
 Xampp also comes with a number of other modules including OpenSSL, ph- pMyAdmin, MediaWiki, Joomla, WordPress and more. Self-contained, multiple instances of Xampp can exist on a single computer, and any given instance can be copied from one computer to another. Xampp is offered in both a full and a stan- dard version (Smaller version). Xampp also provides support for creating and manipulating databases in MariaDB and SQLite among others
 
-Xampp’s designers intended it for use only as a development tool, to allow website designers and programmers to test their work on their own computers without any access to the Internet. To make this as easy as possible, many impor- tant security features are disabled by default. Xampp has the ability to serve web pages on the World Wide Web. A special tool is provided to password-protect the most important parts of the package.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+Xampp’s designers intended it for use only as a development tool, to allow website designers and programmers to test their work on their own computers without any access to the Internet. To make this as easy as possible, many impor- tant security features are disabled by default. Xampp has the ability to serve web pages on the World Wide Web. A special tool is provided to password-protect the most important parts of the package.
 
 Used Xampp Control Panel to create the User account database consisting of Cus- tomer Name, Username, PIN and Mobile Number.
 
@@ -462,7 +450,7 @@ Used for sending OTP to the registered Customer’s Mobile Number. Version used:
 
 **Figure 4.4:** Textlocal Messenger
 
-These were the software tools used for the project when face recognition was done using machine learning.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+These were the software tools used for the project when face recognition was done using machine learning.
 
 II.Method two based on deep learning.
 
@@ -474,7 +462,7 @@ Anaconda is a free and open-source distribution of the Python and R program- min
 
 Anaconda navigator was used to install packages like tensorflow,keras,scikit in windows.
 
-Anaconda prompt is used to run the python file(classifier.py) for face recognition. Version used: Anaconda with Python 3.7.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+Anaconda prompt is used to run the python file(classifier.py) for face recognition. Version used: Anaconda with Python 3.7.![]
 
 ![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.014.png)
 
@@ -488,7 +476,7 @@ Tensorflowbase and cpu were installed.
 
 9. **Keras**
 
-Keras is an open-source neural-network library written in Python. It is ca- pable of running on top of TensorFlow, Microsoft Cognitive Toolkit, Theano, or PlaidML. Designed to enable fast experimentation with deep neural networks, it focuses on being user-friendly, modular, and extensible.Keras helps in removing complexities of tensorflow. Keras is run with tensorflowin the backend.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+Keras is an open-source neural-network library written in Python. It is ca- pable of running on top of TensorFlow, Microsoft Cognitive Toolkit, Theano, or PlaidML. Designed to enable fast experimentation with deep neural networks, it focuses on being user-friendly, modular, and extensible.Keras helps in removing complexities of tensorflow. Keras is run with tensorflowin the backend.
 
 10. **Matplotlib**
 
@@ -503,7 +491,7 @@ Scikit-image and scikit-learn were used.
 3. **Implementation Results**
 1. **Phase 1: Face Detection**
 
-Face Detection phase was done using OpenCV with the help of python pro- gramming language. Face Detection was implemented in Windows Operating System as an initial stage using the Webcamera of the Laptop. So, during image capture using Webcamera, the computer detected the available faces from the im- age, using Haar Algorithm.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+Face Detection phase was done using OpenCV with the help of python pro- gramming language. Face Detection was implemented in Windows Operating System as an initial stage using the Webcamera of the Laptop. So, during image capture using Webcamera, the computer detected the available faces from the im- age, using Haar Algorithm.
 
 Further, it was implemented onto Raspberry Pi hardware using the Pi Camera ,which is interfaced with the Raspberry Pi
 
@@ -515,7 +503,7 @@ The Face images were trained using Java codes.
 
 3. **Phase 3: Face Recogntion**
 
-WeinitiallyimplementedFaceRecognitionbydisplayingthecorrespondingnames of the detected faces (from the image dataset) and the Confidence value in per- centage, as shown in Figure 4.6. Face recognition has been implemented using Fisher Faces algorithm and using the concept of confusion matrix, the accuracy was measured as 80 percent.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+WeinitiallyimplementedFaceRecognitionbydisplayingthecorrespondingnames of the detected faces (from the image dataset) and the Confidence value in per- centage, as shown in Figure 4.6. Face recognition has been implemented using Fisher Faces algorithm and using the concept of confusion matrix, the accuracy was measured as 80 percent.
 
 ![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.015.png)
 
@@ -525,7 +513,7 @@ To improve face recognition accuracy and provide an efficientsecurity layer for 
 
 4. **Phase 4: Creation of User account Database**
 
-The database was created using Xampp software in the server(windows sys- tem). The database consists of fields like user id(uid), username(uname), full name(Name), bankname(bank), password(pass) and mobile number(phone).![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+The database was created using Xampp software in the server(windows sys- tem). The database consists of fields like user id(uid), username(uname), full name(Name), bankname(bank), password(pass) and mobile number(phone).
 
 ![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.016.png)
 
@@ -533,7 +521,7 @@ The database was created using Xampp software in the server(windows sys- tem). T
 
 5. **Phase 5: Implementing the the Face Recognition phase onto the ATM GUI**
 
-We used Netbeans Java software to provide a Graphical User Interface (GUI) with a flowof security layer. Different GUI frames were created similar to the conven- tionalATMsystem. InadditiontotheusualATMGUIs, wehaveFaceRecognition Stage in the beginning and an OTP verificationstage at the end.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+We used Netbeans Java software to provide a Graphical User Interface (GUI) with a flowof security layer. Different GUI frames were created similar to the conven- tionalATMsystem. InadditiontotheusualATMGUIs, wehaveFaceRecognition Stage in the beginning and an OTP verificationstage at the end.
 
 ![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.017.png)
 
@@ -543,7 +531,7 @@ The First GUI Frame of our ATM system is as shown in Figure .4.7. The Frame has 
 
 3\.Identify User: This button allows to proceed with the Face Recognition Phase. The loaded image on the box, is verified with the image Database created and displays the username of the corresponding user in the ’User Name’ label. 4.Choose Bank Option: After completion of the Face recogntion stage, the user is allowed to choose the Bank where she/he has the Account.
 
-5\.Enter Password: The user is allowed to enter the high security PIN in the field provided.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+5\.Enter Password: The user is allowed to enter the high security PIN in the field provided.
 
 6. **Phase 6: PIN Matching**
 
@@ -557,7 +545,7 @@ The user is allowed to enter the PIN in the field provided and is then allowed t
 
 ![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.019.png)
 
-**Figure 4.10:** Identifiesuser and displays as shown if the entered Password (PIN) is incorrect![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+**Figure 4.10:** Identifiesuser and displays as shown if the entered Password (PIN) is incorrect.
 
 As shown in figure above, if the entered PIN does not match with the one present in the User Account Database, then a pop-up message showing ’Login Failed’ will be displayed.
 
@@ -565,13 +553,11 @@ As shown in figure above, if the entered PIN does not match with the one present
 
 Once the entered PIN is verified with the PIN in the database, the user will be able to Login further. Then, a 4-digit One-Time Password will be generated and sent to the user’s registered 10-digit mobile number within few seconds.Then, the user is allowed to enter the generated OTP in the field provided and proceed for ’Submit’.
 
-**Welcome    Devika![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.020.png)**
 
 **Figure 4.11:** Entering the One-time password
 
 As shown in figure above, if the OTP entered is not verified, then it displays a pop-up message showing ’Login Failed’. The user is allowed to enter the correct OTP for upto a maximum of 3 trials.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
 
-**Welcome    Devika![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.021.png)**
 
 **Figure 4.12:** Verifying the OTP
 
