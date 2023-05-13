@@ -556,16 +556,15 @@ Once the entered PIN is verified with the PIN in the database, the user will be 
 
 **Figure 4.11:** Entering the One-time password
 
-As shown in figure above, if the OTP entered is not verified, then it displays a pop-up message showing ’Login Failed’. The user is allowed to enter the correct OTP for upto a maximum of 3 trials.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+As shown in figure above, if the OTP entered is not verified, then it displays a pop-up message showing ’Login Failed’. The user is allowed to enter the correct OTP for upto a maximum of 3 trials.
 
 
 **Figure 4.12:** Verifying the OTP
 
 If the OTP matches, then it displays the Name of the Customer as ’Welcome <Name of Customer>’, as shown above.Once the OTP entered is verified, the user can proceed to further transaction ,which is provided by the conventional ATM system. A pop-up message showing ’Login Successful!’ will be displayed as shown in above figure.
 
-In the hardware part, the Database which includes the Face image database and the User account database is stored within a Windows 10.0 Laptop , definingit as the Server. The Real-time ATM system is definedin a Raspberry Pi hardware with the help of a monitor screen, keyboard and mouse.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+In the hardware part, the Database which includes the Face image database and the User account database is stored within a Windows 10.0 Laptop , definingit as the Server. The Real-time ATM system is definedin a Raspberry Pi hardware with the help of a monitor screen, keyboard and mouse.
 
-Govt.Model Engineering College 38
 
 **Chapter 5**
 
@@ -577,11 +576,7 @@ Facialrecognitionhasproventobeoneofthemostsecuremethodsofallbiometric systems to
 
 In the proposed project, it replaces the traditional ATM system. It has advan- tages such as saves manufacturing cost of cards and overcomes drawbacks of the traditional system like carrying the ATM card, losing of card, fraud calls related to ATMcard, etc. andprovideshighsecuritybyusingauthenticationlikefingerprint and OTP systems
 
-With new improved techniques in the field of artificial Intelligence that help eliminatemoredisturbancesanddistortions,therateofeffectivenessofthesystem
-
-ATM Security system based on Face Recognition, PIN and OTP![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.001.png)
-
-can be improved.
+With new improved techniques in the field of artificial Intelligence that help eliminatemoredisturbancesanddistortions,therateofeffectivenessofthesystem can be improved.
 
 2. **Future Scope**
 
