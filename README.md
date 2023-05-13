@@ -12,54 +12,54 @@ is not recognized then it notifiesthe user that he has no bank account. If face 
 
 **Table of Contents**
 
-**Acknowledgment i Abstract ii List of Figures vii List of Abbreviations vii 1 Introduction 1 2 Literature Survey 3**
+** i Abstract ii List of Figures vii List of Abbreviations vii 1 Introduction 1 2 Literature Survey 3**
 
 **3 Design Phase 7**
 
-1. Block Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
-1. System Flow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
-1. System Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
-1. Face Detection and Face Recognition . . . . . . . . . . . . . . . 9
-1. PIN Matching . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
-1. OTP Generation and Verification . . . . . . . . . . . . . . . . . 18
+1. Block Diagram 
+1. System Flow 
+1. System Overview 
+1. Face Detection and Face Recognition
+1. PIN Matching 
+1. OTP Generation and Verification 
 
 **4 Implementation Phase 20**
 
-1. Hardware Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+1. Hardware Overview 
 
 iv
 ATM Security system based on Face Recognition, PIN and OTP![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.001.png)
 
-1. Raspberry Pi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
-1. Pi Camera . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
-2. Software overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
-1. Raspbian . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
-1. OpenCV . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
-1. Python . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
-1. Netbeans Java . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
-1. Xampp . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25
-1. Textlocal Messenger . . . . . . . . . . . . . . . . . . . . . . . . . 27
-1. Anaconda . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
-1. TensorFlow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
-1. Keras . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
-1. Matplotlib . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
-1. Scikit-learn . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30
-3. Implementation Results . . . . . . . . . . . . . . . . . . . . . . . . . . 30
-1. Phase 1: Face Detection . . . . . . . . . . . . . . . . . . . . . . . 30
-1. Phase 2: Creation of Image Database . . . . . . . . . . . . . . . 31
-1. Phase 3: Face Recogntion . . . . . . . . . . . . . . . . . . . . . . 31
-1. Phase 4: Creation of User account Database . . . . . . . . . . . 32
+1. Raspberry Pi 
+1. Pi Camera 
+2. Software overview 
+1. Raspbian 
+1. OpenCV 
+1. Python 
+1. Netbeans Java 
+1. Xampp 
+1. Textlocal Messenger 
+1. Anaconda 
+1. TensorFlow 
+1. Keras 
+1. Matplotlib 
+1. Scikit-learn 
+3. Implementation Results 
+1. Phase 1: Face Detection 
+1. Phase 2: Creation of Image Database 
+1. Phase 3: Face Recogntion 
+1. Phase 4: Creation of User account Database 
 1. Phase 5: Implementing the the Face Recognition phase onto
 
-the ATM GUI . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+the ATM GUI 
 
-6. Phase 6: PIN Matching . . . . . . . . . . . . . . . . . . . . . . . 35
-6. Phase 7: OTP generation and Verification . . . . . . . . . . . . . 36![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+6. Phase 6: PIN Matching 
+6. Phase 7: OTP generation and Verification ![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
 
 **5 Conclusions and Future Scope 38**
 
-1. Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
-1. Future Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39
+1. Conclusion 
+1. Future Scope 
 
 **Bibliography 39 Appendix 42![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)**
 
@@ -67,21 +67,23 @@ Govt.Model Engineering College vi
 
 **List of Figures**
 
-1. Block Diagram . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
-1. Flow chart . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
-1. Haar cascade . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
-1. EigenFaces Face Recognizer Principal Components. . . . . . . . . . . 14
-1. FisherFaces Face Recognizer Principal Components . . . . . . . . . . 16
-1. PIN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
-1. Raspberry Pi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
-1. Picamera . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
-1. Xampp . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
-1. Textlocal Messenger . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
-1. Anaconda navigator and anaconda prompt . . . . . . . . . . . . . . . 29
-1. Face recognition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
-1. Account Database . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
-1. First GUI frame . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34
-1. GUI frame after the user has entered the details . . . . . . . . . . . . 35 4.10If the entered Password (PIN) is incorrect after identifying user . . . 35 4.11Entering the One-time password . . . . . . . . . . . . . . . . . . . . . 36 4.12Verifying the OTP . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+1. Block Diagram 
+1. Flow chart 
+1. Haar cascade
+1. EigenFaces Face Recognizer Principal Components
+1. FisherFaces Face Recognizer Principal Components 
+1. PIN 
+1. Raspberry Pi
+1. Picamera 
+1. Xampp 
+1. Textlocal Messenger
+1. Anaconda navigator and anaconda prompt 
+1. Face recognition 
+1. First GUI frame 
+1. GUI frame after the user has entered the details 
+2. If the entered Password (PIN) is incorrect after identifying user 
+3. Entering the One-time password 
+4. Verifying the OTP 
 
 viii
 
