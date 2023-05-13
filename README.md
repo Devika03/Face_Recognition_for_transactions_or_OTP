@@ -1,10 +1,4 @@
-﻿**Acknowledgment**
 
-Firstofall, wearethankfultotheLord, Almightywhoseenormousgraceandblessingsenabled ustocompletetheProject. Weexpressoursinceregratitudeto **(Prof.) Dr. VinuThomas,Principal, Govt. Model Engineering College** for opening up a plethora of possibilities and resources for our use.
-
-Next we express our heartfelt thanks to **(Prof.) Dr. Laila D, Head of Department of Electronics Engineering**. She has offered infallible support and timely advice and was pivotal in the comple- tion of this Project. We are greatly obliged to the Project coordinator **Dr. Binesh T , Associate Professor, Department of Electronics** and **Smt.Thushara H P, Assistant Professor, Department of Electronics** for allowing us to use the facilities available and for providing us with right guid- ance and advice at the crucial junctures and for showing us the right way. We are thankful to our Seminarguide **Mr. AjayNathSA,AssistantProfessorofDepartmentofElectronicsEngineering** for his support and advice he has given us throughout the project.
-
-We also extend our sincere gratitude to our teachers, non-teaching staff and classmates who were ready with a positive comment all the time.
 
 **Abstract**
 
