@@ -622,12 +622,11 @@ ATM Security system based on Face Recognition, PIN and OTP![](Aspose.Words.c25e3
 8. https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and- deep-learning/
 8. https://towardsdatascience.com/facial-recognition-using-deep-learning-a74e9059a150![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
 
-Govt.Model Engineering College 42
 
 **Appendix**
 
 1. **Python code for Face Detection**
-
+```
 import cv2
 
 import sys
@@ -652,7 +651,6 @@ ret, frame = video\_capture.read()
 
 gray = cv2.cvtColor(frame, cv2.COLOR\_BGR2GRAY)
 
-ATM Security system based on Face Recognition, PIN and OTP![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.001.png)
 
 faces = faceCascade.detectMultiScale(
 
@@ -761,9 +759,11 @@ break
 print("\n [INFO] Exiting Program and cleanup stuff") cam.release()
 
 cv2.destroyAllWindows()
-
+    
+```
+    
 2. **Java codes for Face Recognition based on machine learning** package facerecognition;
-
+```
 import GUI.login;
 
 import java.io.FileNotFoundException; import java.io.IOException;
@@ -1457,9 +1457,10 @@ TrainModel model=new TrainModel(); model.setDataSetPath("D:\\FaceRecognition\\da
 }
 
 }
+```    
 
 3. **Python Code for face recognition based on deep Learning**
-
+```
 import OS
 
 from PIL import Image import numpy as np import os![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
@@ -1775,4 +1776,4 @@ private javax.swing.JLabel jLabel3;![](Aspose.Words.c25e3b61-20fb-4cba-b935-8607
 private javax.swing.JTextField otpTF; private javax.swing.JLabel usertext;
 
 }![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
-Govt.Model Engineering College 71
+```
