@@ -13,9 +13,13 @@ is not recognized then it notifiesthe user that he has no bank account. If face 
 **Table of Contents**
 
 **Abstract**
+
 **List of Figures**
+
 **List of Abbreviations**
+
 **1 Introduction** 
+
 **2 Literature Survey**
 
 **3 Design Phase**
