@@ -37,7 +37,10 @@ is not recognized then it notifiesthe user that he has no bank account. If face 
 
 1. Raspberry Pi 
 1. Pi Camera 
+
+
 *Software overview* 
+
 3. Raspbian 
 4. OpenCV 
 5. Python 
@@ -49,7 +52,10 @@ is not recognized then it notifiesthe user that he has no bank account. If face 
 11. Keras 
 12. Matplotlib 
 13. Scikit-learn 
+
+
 *Implementation Results*
+
 15. Phase 1: Face Detection 
 16. Phase 2: Creation of Image Database 
 17. Phase 3: Face Recogntion 
@@ -57,7 +63,7 @@ is not recognized then it notifiesthe user that he has no bank account. If face 
 19. Phase 5: Implementing the the Face Recognition phase onto the ATM GUI 
 
 6. Phase 6: PIN Matching 
-6. Phase 7: OTP generation and Verification ![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+6. Phase 7: OTP generation and Verification
 
 **5 Conclusions and Future Scope 38**
 
