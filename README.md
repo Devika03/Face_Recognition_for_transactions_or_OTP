@@ -1,4 +1,6 @@
-**Abstract**
+<p align="center">
+    <a href="https://github.com/Devika03/Face_Recognition_for_transactions_or_OTP#README" target="_blank"> <img src="https://readme-typing-svg.herokuapp.com?font=Tourney&center=true&vCenter=true&color=2CFF00&size=75&pause=750&width=1280&height=80&lines=Face_Recognition_for_OTP"/> </a>
+</p>
 
 ![](https://www.mdpi.com/information/information-13-00316/article_deploy/html/images/information-13-00316-g001.png)
 
