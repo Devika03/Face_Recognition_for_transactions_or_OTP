@@ -211,7 +211,7 @@ fulfill this by effectively spreading out the most frequent intensity values. Th
 
 feature extraction can be done using curvelet transform and by using FFT.
 
-The ATM security is enhanced by adding GSM module to generate OTP in pa- per [5]. When there is a network problem in GSM technology, instead of GSM here implements Bluetooth connection with ATM, Which generates OTP refer- ence through user mobile. GSM modems can be a quick and efficient way to get![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png) started with SMS, because a special subscription to an SMS service provider is not required. A GSM modem could also be a standard GSM mobile phone with the appropriate cable and software driver to connect to a serial port or USB port
+The ATM security is enhanced by adding GSM module to generate OTP in pa- per [5]. When there is a network problem in GSM technology, instead of GSM here implements Bluetooth connection with ATM, Which generates OTP refer- ence through user mobile. GSM modems can be a quick and efficient way to get started with SMS, because a special subscription to an SMS service provider is not required. A GSM modem could also be a standard GSM mobile phone with the appropriate cable and software driver to connect to a serial port or USB port
 
 The paper [6] suggests fisher faces algorithm for face recognition. Compared to globality based supervised dimensionality reduction methods such as Fisher Discriminant Analysis (FDA), locality based ones including Local Fisher Discrim- inant Analysis (LFDA) have attracted increasing interests since they aim to pre- serve the intrinsic data structures and are able to handle multimodally distributed data. However, both FDA and LFDA are usually solved via a ratio trace form to approximate the trace ratio, which is the Fisher’s original objective criterion.
 
@@ -574,15 +574,13 @@ In the hardware part, the Database which includes the Face image database and th
 
 Facialrecognitionhasproventobeoneofthemostsecuremethodsofallbiometric systems to a point for high level security and to avoid ATM robberies and provide security for ATM.
 
-In the proposed project, it replaces the traditional ATM system. It has advan- tages such as saves manufacturing cost of cards and overcomes drawbacks of the traditional system like carrying the ATM card, losing of card, fraud calls related to ATMcard, etc. andprovideshighsecuritybyusingauthenticationlikefingerprint and OTP systems
+In the proposed project, it replaces the traditional ATM system. It has advan- tages such as saves manufacturing cost of cards and overcomes drawbacks of the traditional system like carrying the ATM card, losing of card, fraud calls related to ATMcard, etc. and provide shigh security byusing authentication like fingerprint and OTP systems
 
-With new improved techniques in the field of artificial Intelligence that help eliminatemoredisturbancesanddistortions,therateofeffectivenessofthesystem can be improved.
+With new improved techniques in the field of artificial Intelligence that help eliminatemore disturbances and distortions,therate of effectiveness of the system can be improved.
 
 2. **Future Scope**
 
 This project can be used for real time security applications like in ATM security systems, military applications, high security companies. This can also be used in bank locker access. Lighting provided to the system is a key factor to be taken care of. Usage of high speed computers can improve the efficiency.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
-
-Govt.Model Engineering College 40
 
 **Bibliography**
 
@@ -593,8 +591,6 @@ Govt.Model Engineering College 40
 1. Manoj V , M. Sankar R , Sasipriya S , U. Devi E, Devika T , "Multi Authentication ATM Theft Prevention Using iBeacon", International Research Journal of Engineering and Technology (IRJET).
 1. L. Wang,H. Ji, Y. Shi, " Face recognition using maximum local fisher discriminant analysis", 18th IEEE International Conference on Image Processing, 2011.
 1. K.Shailaja and Dr.B.Anuradha, "Effective Face Recognition using Deep Learning based Linear Discriminant Classification ", IEEE International Conference on Computational Intelligence and Computing Research, 2016.
-
-ATM Security system based on Face Recognition, PIN and OTP![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.001.png)
 
 8. H. R. Babaei, O. Molalapata and A.H.Y Akbar Pandor, "Face Recognition Application for Au- tomatic Teller Machines (ATM)", International Conference on Information and Knowledge Manage- ment (ICIKM), 2012.
 8. https://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec-tutorial.htmlface- recognition
