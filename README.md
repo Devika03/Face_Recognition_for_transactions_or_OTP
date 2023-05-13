@@ -93,7 +93,7 @@ is not recognized then it notifiesthe user that he has no bank account. If face 
 3. Entering the One-time password 
 4. Verifying the OTP 
 
-viii
+
 
 **List of Abbreviations**
 
@@ -119,14 +119,20 @@ GSM - Global System for Mobile
 
 GUI - Graphical User Interface
 
-HDMI - High-DefinitionMultimedia Interface IDE - Integrated Development Environment JPEG - Joint Photographic Experts Group LAN - Local Area Network
+HDMI - High-DefinitionMultimedia Interface 
+
+IDE - Integrated Development Environment 
+
+JPEG - Joint Photographic Experts Group 
+
+LAN - Local Area Network
 
 LCD - Liquid Crystal Display
 
 LFDA - Local Fisher Discriminant Analysis
 
-ix
-ATM Security system based on Face Recognition, PIN and OTP![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.001.png)
+
+ATM Security system based on Face Recognition, PIN and OTP
 
 LXDE - Lightweight X11 Desktop Environment
 
@@ -154,9 +160,8 @@ SMS - Short Message Service
 
 SQL - Standardized Query Language
 
-USB - Universal Serial Bus![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
+USB - Universal Serial Bus
 
-Govt.Model Engineering College x
 
 **Chapter 1**
 
