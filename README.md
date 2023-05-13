@@ -1,6 +1,6 @@
-
-
 **Abstract**
+
+![](https://www.mdpi.com/information/information-13-00316/article_deploy/html/images/information-13-00316-g001.png)
 
 In order to provide reliable security solution to the people, the Project is focused on Design andImplementationofFaceRecognitionbasedATMSecuritySystemusingOpenCV,machine learning and deep learning. The system is implemented on the credit card size Raspberry
 
