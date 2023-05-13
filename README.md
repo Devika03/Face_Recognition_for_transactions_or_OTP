@@ -10,7 +10,7 @@ is not recognized then it notifiesthe user that he has no bank account. If face 
 
 **Keywords**- Face recognition, Raspberry Pi, OpenCV , Machine learning, Deep learning, PIN, OTP.
 
-**Table of Contents**
+*Table of Contents*
 
 **Abstract**
 
