@@ -12,9 +12,13 @@ is not recognized then it notifiesthe user that he has no bank account. If face 
 
 **Table of Contents**
 
-** i Abstract ii List of Figures vii List of Abbreviations vii 1 Introduction 1 2 Literature Survey 3**
+**Abstract**
+**List of Figures**
+**List of Abbreviations**
+**1 Introduction** 
+**2 Literature Survey**
 
-**3 Design Phase 7**
+**3 Design Phase**
 
 1. Block Diagram 
 1. System Flow 
