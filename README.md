@@ -10,7 +10,7 @@ is not recognized then it notifiesthe user that he has no bank account. If face 
 
 **Keywords**- Face recognition, Raspberry Pi, OpenCV , Machine learning, Deep learning, PIN, OTP.
 
-*Table of Contents*
+**Table of Contents**
 
 **Abstract**
 
@@ -31,35 +31,30 @@ is not recognized then it notifiesthe user that he has no bank account. If face 
 1. PIN Matching 
 1. OTP Generation and Verification 
 
-**4 Implementation Phase 20**
+**4 Implementation Phase**
 
-1. Hardware Overview 
-
-iv
-ATM Security system based on Face Recognition, PIN and OTP![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.001.png)
+*Hardware Overview* 
 
 1. Raspberry Pi 
 1. Pi Camera 
-2. Software overview 
-1. Raspbian 
-1. OpenCV 
-1. Python 
-1. Netbeans Java 
-1. Xampp 
-1. Textlocal Messenger 
-1. Anaconda 
-1. TensorFlow 
-1. Keras 
-1. Matplotlib 
-1. Scikit-learn 
-3. Implementation Results 
-1. Phase 1: Face Detection 
-1. Phase 2: Creation of Image Database 
-1. Phase 3: Face Recogntion 
-1. Phase 4: Creation of User account Database 
-1. Phase 5: Implementing the the Face Recognition phase onto
-
-the ATM GUI 
+*Software overview* 
+3. Raspbian 
+4. OpenCV 
+5. Python 
+6. Netbeans Java 
+7. Xampp 
+8. Textlocal Messenger 
+9. Anaconda 
+10. TensorFlow 
+11. Keras 
+12. Matplotlib 
+13. Scikit-learn 
+*Implementation Results*
+15. Phase 1: Face Detection 
+16. Phase 2: Creation of Image Database 
+17. Phase 3: Face Recogntion 
+18. Phase 4: Creation of User account Database 
+19. Phase 5: Implementing the the Face Recognition phase onto the ATM GUI 
 
 6. Phase 6: PIN Matching 
 6. Phase 7: OTP generation and Verification ![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
@@ -69,9 +64,8 @@ the ATM GUI
 1. Conclusion 
 1. Future Scope 
 
-**Bibliography 39 Appendix 42![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)**
+**Bibliography**
 
-Govt.Model Engineering College vi
 
 **List of Figures**
 
