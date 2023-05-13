@@ -173,16 +173,12 @@ An Automatic Teller Machine (ATM) is a computerized machine that is used to with
 
 Due to rapid development in science and technology, upcoming innovations are being built-up with strong security. But on the other hand, threats are also being posed to destroy this security level. Though enhancement in automation has made a positive impact overall, various financial institutions like banks and applications like ATM are still subjected to thefts and frauds. The existing ATM model uses a card and a PIN which gives rise to increase in attacks in the form of stolen cards, or due to statically assigned PINs, duplicity of cards and vari- ous other threats.Then another major problem is hacking of PIN. There are other
 
-1
-ATM Security system based on Face Recognition, PIN and OTP![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.001.png)
 
 fraudulent attacks like eavesdropping, spoofing , brute force attacks, blackmail- ing the user. In the worst case there can also be ATM machine Robbery.
 
 To overcome these problems,the project ’ATM Security system based on Face recognition, PIN and OTP’ consists of conventional features ie is Personal Iden- tification Number (PIN) along with additional features like face recognition and one-time password (OTP) is used. Database holds information about a user’s ac- count details, images of his/her face and a mobile number which will improve security to a large extent.
 
-First, the user will come to the ATM machine and a live image is captured through the Pi Camera interfaced with Raspberry Pi defining as the ATM sys- tem, which is compared with the images stored in the database. If the face is recognised, then the user is notified to type the PIN. If the PIN matches, an OTP will be sent to the corresponding registered mobile number. If the user correctly enters the OTP, the transaction can proceed. Therefore, the combination of face recognition algorithm,PIN and an OTP drastically reduces the chances of fraud. Inorder to obtain better accuracy deep learning based linear discrimint classifica- tion method is utilized. And excecuted the same in windows OS.![](Aspose.Words.c25e3b61-20fb-4cba-b935-86071ea01a22.002.png)
-
-Govt.Model Engineering College 2
+First, the user will come to the ATM machine and a live image is captured through the Pi Camera interfaced with Raspberry Pi defining as the ATM sys- tem, which is compared with the images stored in the database. If the face is recognised, then the user is notified to type the PIN. If the PIN matches, an OTP will be sent to the corresponding registered mobile number. If the user correctly enters the OTP, the transaction can proceed. Therefore, the combination of face recognition algorithm,PIN and an OTP drastically reduces the chances of fraud. Inorder to obtain better accuracy deep learning based linear discrimint classifica- tion method is utilized. And excecuted the same in windows OS.
 
 **Chapter 2**
 
